@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://sidneym6.github.io 
+#url: https://sidneym6.github.io 
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /the-dogs
+#baseurl: /the-dogs
 # location of code, the full url to your github repository
 source-code: https://github.com/Sidneym6/the-dogs
 #source-code: https://sidneym6.github.io/the-dogs/
