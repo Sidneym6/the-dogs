@@ -8,11 +8,12 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+#url: 
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+#baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/Sidneym6/the-dogs
+#source-code: https://github.com/Sidneym6/the-dogs
+source-code: https://sidneym6.github.io/the-dogs/
 
 ##########
 # SITE SETTINGS
@@ -25,9 +26,9 @@ tagline: A Collection of Sidney's Dog Photos
 # this description might appear in search result lists, keep around 160 characters max
 description: This is a photo collection of my dogs over the first two years of adopting them.
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+#keywords: 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Sidneym6
+author: Sidney Matzdorff
 
 ##########
 # COLLECTION SETTINGS
