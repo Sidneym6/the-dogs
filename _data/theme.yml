@@ -10,9 +10,9 @@
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
 featured-image: crepe_honey001
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 12em # the margin from the top your title portion will appear.
+home-title-y-padding: 10em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: center # Default is top
+home-banner-image-position: # Default is center
 
 ##########
 # ITEM PAGE
@@ -102,9 +102,10 @@ base-font-family: # comment out for bootstrap defaults. e.g. Roboto
 font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
-# default icons can be overridden or new icons can be added using "icons" object
-# the template uses Bootstrap Icons, https://icons.getbootstrap.com/
-# find the names on the BI icons page, e.g. file-image
+# cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
+# the "icons" object below can override the default icons and add new icons
+# the default keys are icon-image, icon-audio, icon-video, icon-pdf, and icon-default
+# the values must match an icon svg name in "assets/lib/icons/"
 #
 # icons: 
 #   icon-image: image
@@ -112,8 +113,10 @@ font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/c
 #   icon-video: film
 #   icon-pdf: file-pdf
 #   icon-record: file-text
-#   icon-panorama: image-alt
-#   icon-compound-object: collection 
+#   icon-compound-object: collection
 #   icon-multiple: postcard
 #   icon-default: file-earmark # fall back icon
-#   icon-back-to-top: arrow-up-square
+#   icon-back-to-top: arrow-up-square # scroll to top icon
+#   arrow-left: arrow-left
+#   arrow-right: arrow-right
+#   arrow-down: arrow-down
